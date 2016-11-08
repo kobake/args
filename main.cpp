@@ -18,7 +18,9 @@ int main(int argc,char *argv[],char* envp[])
 		printf("argv[%d]=%s\n",i,argv[i]);
 	}
 
-	//char buf[10];
-	//fgets(buf,_countof(buf),stdin);
+
+	printf("\n -- press enter to exit --\n");
+	char buf[10];
+	fgets(buf,_countof(buf),stdin);
 	return 0;
 }
