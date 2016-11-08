@@ -18,7 +18,7 @@ int main(int argc,char *argv[],char* envp[])
 		printf("argv[%d]=%s\n",i,argv[i]);
 	}
 
-	char buf[10];
-	fgets(buf,_countof(buf),stdin);
+	//char buf[10];
+	//fgets(buf,_countof(buf),stdin);
 	return 0;
 }
