@@ -11,4 +11,6 @@ argv[1]=hoge
 argv[2]=ab
 argv[3]=cd
 argv[4]=ef gh
+
+ -- press enter to exit --
 ```
